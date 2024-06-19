@@ -1,0 +1,1005 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;  
+}
+
+body {
+    overflow-x: hidden; 
+}
+
+
+
+.navbar {
+    height: 58px;
+    width: 100%;
+    background-color: white; /* Background color for the navbar */
+    position: absolute; /* Fixed position to stick at the top */
+    top: 0;
+    left: 0;
+    z-index: 1001; /* Ensure the navbar stays above other content */
+    display: flex;
+    position: fixed;
+    opacity: 0.90;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adjust padding for inner content */
+    font-family: s4;
+
+}
+
+.logo {
+    height: 20px;
+    width: 120px;
+    margin-left: 21px;
+    margin-top: -20px;
+}
+
+.centre-nav{
+    display: flex;
+    align-items: end;
+    margin-left: 50px;
+    font-size: 1px;
+    box-sizing: border-box;
+    font-stretch:100%;
+    font-weight: lighter;
+    color: rgb(23, 26,32);
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+
+}
+.right-nav {
+    display: flex;
+    align-items: end;
+    
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li a{
+    font-size: 14px;
+}
+
+.menu-list .nav-list {
+    margin: 0 15px;
+}
+
+.menu-list .nav-list a {
+    text-decoration: none;
+    color: #333333; /* Link color for navigation items */
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-list >a:hover{
+    background-color:rgba(0, 0, 0, 0);
+}
+
+
+#imgcontainer1 {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Ensure the image does not overflow */
+    z-index: 10;
+}
+
+#imgcontainer1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    
+}
+
+#head-container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 1; /* Bring text content above the image */
+    width: 100%;
+    max-width: 600px; /* Limit width for better readability */
+    padding: 0 20px;
+    font-family: s1;
+    margin-top: -227px;
+    
+}
+
+.header {
+    margin-top: 32px;
+    color: rgb(24, 24, 24);
+    font-family: "Universal Sans Display";
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+#rate {
+    font-family: "Universal Sans Display";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#after {
+    font-family: "Universal Sans Text";
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(57, 60, 65);
+}
+
+
+#buttons-1 {
+    display: flex;  
+    position: absolute;
+    left: 720px;
+    top: 585px;
+    left: 482px;
+
+}
+
+#buttons-1 a {
+    padding: 12px 94px; /* This will ensure uniform padding */
+    border-radius: 5px;
+    text-decoration: none;
+    height: 40px;
+    cursor: pointer;
+    margin: 10px;
+}
+    
+
+
+.btn1 {
+    background-color: rgb(242, 246, 250); /* Button background color */
+    color: rgb(65, 63, 63); /* Button text color */
+    
+}
+
+.order {
+    font-family: "Universal Sans Text";
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(57, 60, 65);
+    border: none ;
+}
+
+.demo {
+    font-family: "Universal Sans Text";
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border: none ;
+    background-color: rgb(59, 63, 67);
+}
+
+
+
+
+
+
+
+
+#buttons-1 a.btn2 {
+    background-color: rgb(59, 63, 67); /* Button background color */
+    color: #ffffff; /* Button text color */
+}
+
+/*<!--section2-->*/
+#imgcontainer2 {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Ensure the image does not overflow */
+    z-index: 10;
+}
+
+#imgcontainer2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    
+    
+}
+
+#head-container2 {
+    position: absolute;
+    top: 1113px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 1; /* Bring text content above the image */
+    width: 100%;
+    max-width: 600px; /* Limit width for better readability */
+    padding: 0 20px;
+    font-family: s1;
+    margin-top: -227px;
+    
+}
+
+.header2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 32px;
+    font-family: s12;
+    color: rgb(24, 24, 24);
+
+}
+
+.head-container2 p {
+    font-size: medium; /* Adjust paragraph font size */
+    margin-bottom: 450px;
+    padding-bottom: 14px;
+    
+
+}
+
+
+#buttons-2 {
+    display: flex;
+    position: absolute;
+    bottom: 104px; /* Adjust the distance from the bottom */
+    left: 50%;
+    top: 1308px;
+    transform: translateX(-50%);
+    justify-content: center;
+    z-index: 1;
+    font-family: s1;
+    row-gap: 16px;
+    line-height: 20px;
+
+    
+}
+
+    #buttons-2 a {
+        margin: 10px;
+        padding: 12px 24px; /* This will ensure uniform padding */
+        border-radius: 0.5rem;
+        text-decoration: none;
+        color: #ffffff; /* Button text color */
+        font-weight: 600;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        height: 40px;
+        width: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; /* Ensure text alignment */
+    }
+    
+
+
+#buttons-2 a.btn1 {
+    background-color: rgb(242, 246, 250); /* Button background color */
+    color: rgb(65, 63, 63); /* Button text color */
+    
+}
+
+#buttons-2 a.btn2 {
+    background-color: rgb(59, 63, 67); /* Button background color */
+    color: #ffffff; /* Button text color */
+}
+
+/*section3*/
+_______________________________________________________
+#container3 {
+    position: relative;
+}
+
+#imgcontainer3 {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Ensure the image does not overflow */
+    z-index: 10;
+}
+
+#imgcontainer3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    
+    
+}
+
+#head-container3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 1; /* Bring text content above the image */
+    width: 100%;
+    max-width: 600px; /* Limit width for better readability */
+    padding: 0 20px;
+    font-family: s1;
+    margin-top: 1248px;
+}
+
+
+.header3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 32px;
+    font-family: s12;
+    color: rgb(24, 24, 24);
+
+}
+
+.head-container3 p {
+    font-size: medium; /* Adjust paragraph font size */
+    margin-bottom: 450px;
+    padding-bottom: 14px;
+    
+
+}
+
+#buttons-3 {
+    display: flex;
+    position: absolute;
+    bottom: -186%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    z-index: 1;
+    font-family: s1;
+    row-gap: 16px;
+    line-height: 20px;
+}
+
+
+    #buttons-3 a {
+        margin: 10px;
+        padding: 12px 24px; /* This will ensure uniform padding */
+        border-radius: 0.5rem;
+        text-decoration: none;
+        color: #ffffff; /* Button text color */
+        font-weight: 600;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        height: 40px;
+        width: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; /* Ensure text alignment */
+    }
+    
+
+
+#buttons-3 a.btn1 {
+    background-color: rgb(242, 246, 250); /* Button background color */
+    color: rgb(65, 63, 63); /* Button text color */
+    
+}
+
+#buttons-3 a.btn2 {
+    background-color: rgb(59, 63, 67); /* Button background color */
+    color: #ffffff; /* Button text color */
+}
+
+------------------------------------------------------------------------------------------------------------------------------
+#container4 {
+    position: relative;
+}
+
+#imgcontainer4 {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Ensure the image does not overflow */
+    z-index: 10;
+}
+
+#imgcontainer4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    
+    
+}
+
+#head-container4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    z-index: 1; /* Bring text content above the image */
+    width: 100%;
+    max-width: 600px; /* Limit width for better readability */
+    padding: 0 20px;
+    font-family: s1;
+    margin-top: 132.2%;
+}
+
+
+.header4 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 32px;
+    font-family: s12;
+    color: white;
+
+}
+
+.head-container4 p {
+    font-size: medium; /* Adjust paragraph font size */
+    margin-bottom: 450px;
+    padding-bottom: 14px;
+    
+
+}
+
+#buttons-4 {
+    display: flex;
+    position: absolute;
+    bottom: -289%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    z-index: 1;
+    font-family: s1;
+    row-gap: 16px;
+    line-height: 20px;
+}
+
+
+    #buttons-4 a {
+        margin: 10px;
+        padding: 12px 24px; /* This will ensure uniform padding */
+        border-radius: 0.5rem;
+        text-decoration: none;
+        color: #ffffff; /* Button text color */
+        font-weight: 600;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        height: 40px;
+        width: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; /* Ensure text alignment */
+    }
+    
+
+
+#buttons-4 a.btn1 {
+    background-color: rgb(242, 246, 250); /* Button background color */
+    color: rgb(65, 63, 63); /* Button text color */
+    
+}
+
+#buttons-4 a.btn2 {
+    background-color: rgb(59, 63, 67); /* Button background color */
+    color: #ffffff; /* Button text color */
+}
+
+--------------------------------------------------------------------------------------
+#container5 {
+    position: relative;
+}
+
+#imgcontainer5 {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Ensure the image does not overflow */
+    position: relative;
+}
+
+#imgcontainer5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+#Cybertruck-Logo {
+    position: absolute;
+    top: 23%; /* Adjust the top value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+
+}
+
+#Cybertruck-Logo img {
+    width: 572px;
+    height: 145.575px;
+    top: -4px;
+    
+}
+
+#buttons-5 {
+    display: flex;
+    position: absolute;
+    bottom: 10%; /* Adjust the bottom value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    z-index: 1;
+    font-family: s1;
+    row-gap: 16px;
+    line-height: 20px;
+}
+
+#buttons-5 a {
+    margin: 10px;
+    padding: 12px 24px; /* This will ensure uniform padding */
+    text-decoration: none;
+    color: rgb(142,142,142);
+    font-weight: 400;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    height: 40px;
+    width: 266px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Ensure text alignment */
+}
+
+#buttons-5 a.btn1 {
+    background-color: rgb(46, 49, 51); /* Button background color */
+    color: #fff;
+    border-top: 5px solid black;
+    border-bottom-color: rgb(162,163,165);
+}
+
+#buttons-5 a.btn2 {
+    background-color: rgb(59, 63, 67); /* Button background color */
+    color: #ffffff; /* Button text color */
+}
+
+------------------------------------------------------------------------------------------
+#container6 {
+    position: relative;
+}
+
+#imgcontainer6 {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Ensure the image does not overflow */
+    z-index: 10;
+}
+
+#imgcontainer6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    
+    
+}
+
+
+#head-container6 {
+    position: absolute;
+    top: 245%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    z-index: 1; /* Bring text content above the image */
+    width: 100%;
+    max-width: 600px; /* Limit width for better readability */
+    padding: 0 20px;
+    font-family: s1;
+    margin-top: 132.2%;
+}
+
+
+.header6 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 32px;
+    font-family: s12;
+    color: white;
+
+}
+
+#head-container6 a{
+    color: #ffffff;
+
+}
+.head-container6 p {
+    font-size: medium; /* Adjust paragraph font size */
+    margin-bottom: 450px;
+    padding-bottom: 14px;
+    
+
+}
+
+#buttons-6 {
+    display: flex;
+    position: absolute;
+    bottom: -587%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    z-index: 1;
+    font-family: s1;
+    row-gap: 16px;
+    line-height: 20px;
+}
+
+
+    #buttons-6 a {
+        margin: 10px;
+        padding: 12px 24px; /* This will ensure uniform padding */
+        border-radius: 0.5rem;
+        text-decoration: none;
+        color: #ffffff; /* Button text color */
+        font-weight: 600;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        height: 40px;
+        width: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; /* Ensure text alignment */
+    }
+    
+
+
+#buttons-6 a.btn1 {
+    background-color: rgb(242, 246, 250); /* Button background color */
+    color: rgb(65, 63, 63); /* Button text color */
+    
+}
+
+#buttons-6 a.btn2 {
+    background-color: rgb(59, 63, 67); /* Button background color */
+    color: #ffffff; /* Button text color */
+}
+-------------------------------------------------------------------------------------
+#container7 {
+    position: relative;
+}
+
+#imgcontainer7 {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Ensure the image does not overflow */
+    z-index: 10;
+}
+
+#imgcontainer7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    
+    
+}
+
+#head-container7 {
+    position: absolute;
+    top: 337%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 1; /* Bring text content above the image */
+    width: 100%;
+    max-width: 600px; /* Limit width for better readability */
+    padding: 0 20px;
+    font-family: s1;
+    margin-top: 132.2%;
+}
+
+
+.header7 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 32px;
+    font-family: s12;
+    
+
+}
+
+#head-container7 a{
+    color: #ffffff;
+
+}
+.head-container7 p {
+    font-size: medium; /* Adjust paragraph font size */
+    margin-bottom: 450px;
+    padding-bottom: 14px;
+    
+
+}
+
+#buttons-7 {
+    display: flex;
+    position: absolute;
+    bottom: -487%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    z-index: 1;
+    font-family: s1;
+    row-gap: 16px;
+    line-height: 20px;
+}
+
+
+    #buttons-7 a {
+        margin: 10px;
+        padding: 12px 24px; /* This will ensure uniform padding */
+        border-radius: 0.5rem;
+        text-decoration: none;
+        color: #ffffff; /* Button text color */
+        font-weight: 600;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        height: 40px;
+        width: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; /* Ensure text alignment */
+    }
+    
+
+
+#buttons-7 a.btn1 {
+    background-color: rgb(242, 246, 250); /* Button background color */
+    color: rgb(65, 63, 63); /* Button text color */
+    
+}
+
+#buttons-7 a.btn2 {
+    background-color: rgb(59, 63, 67); /* Button background color */
+    color: #ffffff; /* Button text color */
+}
+------------------------------------------------------------------------------------------------------------------
+
+#container8 {
+    position: relative;
+}
+
+#imgcontainer8 {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Ensure the image does not overflow */
+    z-index: 10;
+}
+
+#imgcontainer8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    
+    
+}
+
+#head-container8 {
+    position: absolute;
+    top: 434%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 1; /* Bring text content above the image */
+    width: 100%;
+    max-width: 600px; /* Limit width for better readability */
+    padding: 0 20px;
+    font-family: s1;
+    margin-top: 132.2%;
+}
+
+
+.header8 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 32px;
+    font-family: s12;
+    
+
+}
+
+.head-container8 p {
+    font-size: medium; /* Adjust paragraph font size */
+    margin-bottom: 450px;
+    padding-bottom: 14px;
+    
+
+}
+
+#buttons-8 {
+    display: flex;
+    position: absolute;
+    bottom: -687%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    z-index: 1;
+    font-family: s1;
+    row-gap: 16px;
+    line-height: 20px;
+}
+
+
+    #buttons-8 a {
+        margin: 10px;
+        padding: 12px 24px; /* This will ensure uniform padding */
+        border-radius: 0.5rem;
+        text-decoration: none;
+        color: #ffffff; /* Button text color */
+        font-weight: 600;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        height: 40px;
+        width: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; /* Ensure text alignment */
+    }
+    
+
+
+#buttons-8 a.btn1 {
+    background-color: rgb(242, 246, 250); /* Button background color */
+    color: rgb(65, 63, 63); /* Button text color */
+    
+}
+
+#buttons-8 a.btn2 {
+    background-color: rgb(59, 63, 67); /* Button background color */
+    color: #ffffff; /* Button text color */
+}
+
+
+--------------------------------------------------------------------------------------------------------
+#container9 {
+    position: relative;
+}
+
+#imgcontainer9 {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Ensure the image does not overflow */
+    z-index: 10;
+}
+
+#imgcontainer9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    
+    
+}
+
+#head-container9 {
+    position: absolute;
+    top: 543%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 1; /* Bring text content above the image */
+    width: 100%;
+    max-width: 600px; /* Limit width for better readability */
+    padding: 0 20px;
+    font-family: s1;
+    margin-top: 132.2%;
+}
+
+
+.header9 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 32px;
+    font-family: s12;
+    
+
+}
+
+.head-container9 p {
+    font-size: medium; /* Adjust paragraph font size */
+    margin-bottom: 450px;
+    padding-bottom: 14px;
+    
+
+}
+
+#buttons-9 {
+    display: flex;
+    position: absolute;
+    bottom: -783%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    z-index: 1;
+    font-family: s1;
+    row-gap: 16px;
+    line-height: 20px;
+}
+
+
+    #buttons-9 a {
+        margin: 10px;
+        padding: 12px 24px; /* This will ensure uniform padding */
+        border-radius: 0.5rem;
+        text-decoration: none;
+        color: #ffffff; /* Button text color */
+        font-weight: 600;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        height: 40px;
+        width: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; /* Ensure text alignment */
+    }
+    
+
+
+#buttons-9 a.btn1 {
+    background-color: rgb(242, 246, 250); /* Button background color */
+    color: rgb(65, 63, 63); /* Button text color */
+    
+}
+
+
+
+#footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    color: white;
+}
+#centre-footer{
+    height: 264px;
+    width: 1116px;
+    color: rgb(238, 238, 238) ;
+    font-weight: 400;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+}
+#centre-footer p{
+    height: 50px;
+    position: relative;
+    left: 19%;
+    bottom: -21%;
+}
+
+
+#centre-footer a{
+    color: rgb(238, 238, 238) ;
+}
+#bottom-footer{
+width: 1471.2px;
+height: 70px;
+background-color: ;
+width: 600px;
+margin-left: 500px;
+}
+#bottom-footer a{
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    justify-content:line-height;
+    
+}
+.end{
+    display: flex;
+    background-color:black ;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    top: 35px;
+}    
